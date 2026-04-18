@@ -1,0 +1,156 @@
+Screen {
+    background: #ffffff;
+    color: #111827;
+}
+
+Header {
+    background: #3390ec;
+    color: #ffffff;
+}
+
+Footer {
+    background: #f4f4f5;
+    color: #4b5563;
+}
+
+.hidden {
+    display: none;
+}
+
+.screen-shell {
+    height: 1fr;
+}
+
+.card {
+    width: 80;
+    max-width: 100;
+    padding: 1 2;
+    border: round #3390ec;
+    background: #f9fafb;
+}
+
+.screen-center {
+    align: center middle;
+}
+
+.setup-copy {
+    margin-top: 1;
+    color: #4b5563;
+}
+
+#login-container {
+    width: 70;
+}
+
+#login-title {
+    margin-bottom: 1;
+    text-style: bold;
+    color: #1d4ed8;
+}
+
+#login-status {
+    margin-top: 1;
+    min-height: 2;
+    color: #4b5563;
+}
+
+#main-shell {
+    height: 1fr;
+}
+
+#sidebar {
+    width: 34;
+    min-width: 28;
+    border-right: solid #d1d5db;
+    background: #f4f4f5;
+}
+
+#center-pane {
+    width: 1fr;
+}
+
+#info-panel {
+    width: 34;
+    min-width: 28;
+    border-left: solid #d1d5db;
+    background: #f9fafb;
+    padding: 1 2;
+}
+
+#search-input {
+    margin: 1;
+}
+
+#chat-list-view {
+    height: 1fr;
+    border: none;
+    background: #f4f4f5;
+}
+
+.chat-item {
+    padding: 0 1;
+    height: auto;
+}
+
+.chat-name {
+    text-style: bold;
+    color: #111827;
+}
+
+.chat-preview {
+    color: #6b7280;
+}
+
+.chat-meta {
+    color: #9ca3af;
+}
+
+#message-header {
+    height: auto;
+    padding: 1 2;
+    background: #ffffff;
+    border-bottom: solid #d1d5db;
+    text-style: bold;
+}
+
+#message-scroll {
+    height: 1fr;
+    padding: 1 2;
+    background: #ffffff;
+}
+
+.message-incoming {
+    width: 80%;
+    margin: 0 8 1 0;
+    padding: 1;
+    background: #f3f4f6;
+    border: round #cbd5e1;
+}
+
+.message-outgoing {
+    width: 80%;
+    margin: 0 0 1 16;
+    padding: 1;
+    background: #effdde;
+    border: round #84cc16;
+}
+
+.placeholder {
+    color: #9ca3af;
+    padding: 1 0;
+}
+
+#input-container {
+    height: 3;
+    padding: 0 1;
+    background: #f9fafb;
+    border-top: solid #d1d5db;
+}
+
+#message-input {
+    width: 1fr;
+}
+
+Button {
+    min-width: 10;
+}

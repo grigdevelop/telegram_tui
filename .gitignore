@@ -1,0 +1,13 @@
+.env
+__pycache__/
+.pytest_cache/
+*.pyc
+*.session
+*.session-journal
+session/
+downloads/
+*.log
+*.db
+.claude
+telegram_client.md
+telegram_tui_client.md
